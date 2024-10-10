@@ -14,7 +14,7 @@ function Mission() {
             width={500}
             height={500}
             alt="dna image"
-            className="rounded-xl border-8 border-[#efc368] w-[700px] rotate-[-8deg]"
+            className="rounded-xl border-8 border-[#efc368] w-[700px] md:rotate-[-8deg] shadow-lg shadow-[#d2ef68]"
           />
         </div>
         <div className="left flex flex-col gap-12">
