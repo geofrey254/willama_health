@@ -2,8 +2,8 @@ import React from "react";
 
 function Tech() {
   return (
-    <section className="tech bg-fixed bg-[#fafaf5] w-full flex flex-col md:gap-12 justify-center items-center p-4 md:p-20">
-      <div className="container rotate-[-2deg] md:rotate-[-10deg] gap-10 md:gap-8 flex flex-col md:flex-row justify-between items-center bg-white p-8 rounded-3xl shadow-lg shadow-[#214842] ">
+    <section className="tech bg-fixed bg-[#fafaf5] w-full flex flex-col md:gap-12 xl:gap-24 justify-center items-center p-4 md:p-20">
+      <div className="container rotate-[-2deg] md:rotate-[-10deg] xl:rotate-[-6deg] gap-10 md:gap-8 flex flex-col md:flex-row justify-between items-center bg-white p-8 rounded-3xl shadow-lg shadow-[#214842] ">
         <div className="col-span-3">
           <h2 className="text-5xl md:text-6xl xl:text-6xl font-extrabold text-[#214842]">
             Product and Technology
@@ -50,7 +50,7 @@ function Tech() {
           </ul>
         </div>
       </div>
-      <div className="container rotate-[2deg] md:rotate-[10deg] gap-10 md:gap-8 flex flex-col md:flex-row justify-between items-center bg-[#f5f5d0] p-8 rounded-3xl shadow-lg shadow-[#214842]">
+      <div className="container rotate-[2deg] md:rotate-[10deg] xl:rotate-[4deg] gap-10 md:gap-8 flex flex-col md:flex-row justify-between items-center bg-[#f5f5d0] p-8 rounded-3xl shadow-lg shadow-[#214842]">
         <div className="col-span-3">
           <h2 className="text-5xl md:text-6xl xl:text-6xl font-extrabold text-[#214842]">
             Commitment to Social Impact.

@@ -41,12 +41,12 @@ function Did() {
             {KNOW.map((know, id) => (
               <CarouselItem key={id}>
                 <div className="p-1">
-                  <Card className="h-[40vh] text-center flex justify-center items-center shadow-inner shadow-[#214842fa]">
+                  <Card className="h-[60vh] text-center flex justify-center items-center shadow-inner shadow-[#214842fa]">
                     <CardHeader className="flex gap-6">
-                      <CardTitle className="text-3xl md:text-5xl font-bold text-[#efc368]">
+                      <CardTitle className="text-3xl md:text-4xl font-bold text-[#efc368]">
                         {know.name}
                       </CardTitle>
-                      <CardDescription className="text-[#214842fa]">
+                      <CardDescription className="text-[#214842fa] text-xl">
                         {know.description}
                       </CardDescription>
                     </CardHeader>{" "}
