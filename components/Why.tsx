@@ -2,14 +2,14 @@ import React from "react";
 
 function Why() {
   return (
-    <section className="w-full grid grid-cols-2">
-      <div className="flex flex-col p-8 bg-[#fafaf5] gap-6">
+    <section className="w-full grid grid-cols-1 md:grid-cols-2">
+      <div className="md:flex md:flex-col p-8 bg-[#fafaf5] gap-6">
         <h4 className="font-bold text-4xl text-[#214842fa]">Why Us?</h4>
         <p className="text-[#214842cc]">
           Wilama Health stands out as the preferred partner for genetic disease
           prevention in Africa due to several key differentiators:
         </p>
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="why_item">
             <div className="flex gap-4 items-center">
               <h2 className="bg-[#214842fa] p-2 rounded-full text-white font-black">
@@ -94,7 +94,11 @@ function Why() {
           </div>
         </div>
       </div>
-      <div className="bg-[url('/img/img2.jpg')] bg-center bg-cover"></div>
+      <div className="relative bg-[url('/img/img2.jpg')] bg-center bg-cover h-[40vh] md:h-auto">
+        <div className="absolute bottom-0 bg-pink-500 rounded-r-3xl p-8 md:py-28 text-2xl md:text-5xl font-bold text-white shadow-lg shadow-[#7ccabffa]">
+          Wilama Health
+        </div>
+      </div>
     </section>
   );
 }

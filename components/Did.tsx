@@ -24,7 +24,7 @@ function Did() {
   );
 
   return (
-    <section className="w-full bg-[#214842fa] flex justify-center items-center p-8">
+    <section className="w-full bg-[#214842fa] flex justify-center items-center p-8 h-[90vh]">
       <div className="container flex flex-col justify-center items-center">
         <div className="headd text-[#214842fa] mb-8">
           <h3 className="text-white text-4xl md:text-6xl font-bold">
