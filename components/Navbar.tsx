@@ -1,12 +1,16 @@
 import React from "react";
-
+import Image from "next/image";
 function Navbar() {
   return (
-    <nav className="w-full bg-[#214842] h-[6vh] md:h-[8vh] flex justify-center items-center">
+    <nav className="w-full bg-[#214842] h-[6vh] md:h-[10vh] flex justify-center items-center">
       <div className="container flex justify-center items-center">
-        <h3 className="text-xl font-bold text-white">
-          Wilama Health Technology
-        </h3>
+        <Image
+          src="/img/logo2.png"
+          width={300}
+          height={300}
+          alt="logo png"
+          className="w-[100px]"
+        />
       </div>
     </nav>
   );

@@ -4,7 +4,9 @@ function CTA() {
   return (
     <section className="cta w-full flex justify-center items-center p-4 md:p-20 bg-[#f5f5e9]">
       <div className="container flex flex-col justify-center items-center gap-6">
-        <h3 className="text-5xl font-bold text-[#214842]">Wilama Health</h3>
+        <h3 className="text-3xl md:text-5xl font-bold text-[#214842] hidden md:flex">
+          Wilama Health
+        </h3>
         <div className="sepa border-4 border-[#214842] w-[100px]"></div>
         <p className="text-[#214842] text-center leading-[30px]">
           Wilama Health is poised to lead a healthcare revolution in Africa,

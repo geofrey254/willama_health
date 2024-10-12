@@ -33,11 +33,11 @@ function Hero() {
         </div>
         <div className="col-span-2 right hidden md:flex">
           <Image
-            src="/img/dnatech.png"
-            width={500}
-            height={500}
+            src="/img/logo.png"
+            width={900}
+            height={900}
             alt="dna illustration"
-            className="w-[500px]"
+            className="w-[900px]"
           />
         </div>
       </div>
