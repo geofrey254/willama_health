@@ -10,11 +10,11 @@ function Mission() {
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
         <div>
           <Image
-            src="/img/img1.jpg"
+            src="/img/clip.png"
             width={500}
             height={500}
             alt="dna image"
-            className="rounded-xl border-8 border-[#efc368] w-[700px] md:rotate-[-8deg] shadow-lg shadow-[#d2ef68]"
+            className="md:rotate-[-8deg]"
           />
         </div>
         <div className="left flex flex-col gap-12 ">
@@ -49,21 +49,34 @@ function Mission() {
             </p>
           </div>
 
-          <div className="vision hidden xl:flex flex-col gap-4">
+          <div className="vision hidden md:flex flex-col gap-4">
             <div className="flex items-center gap-4">
               <h4 className="text-white text-4xl xl:text-5xl font-bold">
                 Values
               </h4>
               <PiListHeartFill size={30} className="text-white md:scale-150" />
             </div>
-            <p className="text-[#fafaf5] text-sm">
-              To create a healthier Africa where the incidence of genetic
-              diseases is drastically reduced, ensuring that every child born
-              has the opportunity to live a healthy, fulfilling life. We
-              envision a future where the burden of genetic diseases is no
-              longer a barrier to the wellbeing and prosperity of African
-              communities.
-            </p>
+            <ul className="list list-disc text-xs xl:text-sm flex flex-col gap-4 text-white">
+              <li>
+                <span className="font-bold text-white">Innovation:</span> We are
+                committed to continuously improving our technology to provide
+                the best possible solutions for genetic testing and disease
+                prevention.
+              </li>
+              <li>
+                <span className="font-bold text-white">Accessibility: </span>{" "}
+                Our goal is to make advanced healthcare accessible to all,
+                regardless of income level or geographical location.
+              </li>
+              <li>
+                <span className="font-bold text-white">
+                  Social Responsibility:{" "}
+                </span>{" "}
+                We believe in the power of business to drive social change and
+                are dedicated to making a positive impact on the lives of
+                millions across Africa.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
