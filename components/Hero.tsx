@@ -16,20 +16,18 @@ function Hero() {
             </h2>
           </div>
           <p className="text-[#214842a5] text-lg">
-            Wilama Health is a medical tech social enterprise focused on
-            preventing recessive genetic diseases in Africa through affordable,
-            AI-powered testing solutions. It aims to reduce the prevalence of
-            conditions like sickle cell anemia and hemophilia by 50% by 2035 and
-            80% by 2050.
+            Wilama Health is a pioneering medical technology social enterprise
+            dedicated to transforming healthcare in Africa by focusing on early
+            detection and prevention of recessive genetic diseases. Our mission
+            is to reduce the prevalence of genetic disorders such as sickle cell
+            anemia, thalassemia, haemophilia , albinism, etc., by providing
+            accessible, affordable, and innovative testing solutions. We are at
+            the forefront of integrating advanced AI technology into our testing
+            equipment, enabling accurate, rapid, and easy-to-interpret results,
+            even in primary healthcare settings. We aim to significantly reduce
+            the number of newborns affected by recessive genetic diseases by 50%
+            by 2035 and 80% by 2050.
           </p>
-          <div className="flex justify-center md:justify-start">
-            <Link
-              href="/"
-              className="bg-[#efc368] p-4 rounded-full font-bold text-[#214842]"
-            >
-              Our Services
-            </Link>
-          </div>
         </div>
         <div className="col-span-2 right hidden md:flex">
           <Image
