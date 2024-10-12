@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Mission from "@/components/Mission";
 import Tech from "@/components/Tech";
 import Did from "@/components/Did";
+import Why from "@/components/Why";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Mission />
       <Tech />
       <Did />
+      <Why />
     </main>
   );
 }
