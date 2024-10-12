@@ -12,7 +12,7 @@ function Hero() {
               - Commited to Transforming Africa Healthcare -
             </h4>
             <h2 className="text-5xl md:text-6xl xl:text-5xl font-extrabold text-[#214842]">
-              Willama Health Technology
+              Wilama Health Technology
             </h2>
           </div>
           <p className="text-[#214842a5] text-lg">
